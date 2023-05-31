@@ -1,8 +1,8 @@
 // Визначити середнє арифметичне трьох чисел
 
 let number1 = parseInt(prompt("Введіть перше число:"));
-let number2 = parseInt(prompt("Введіть перше число:"));
-let number3 = parseInt(prompt("Введіть перше число:"));
+let number2 = parseInt(prompt("Введіть друге число:"));
+let number3 = parseInt(prompt("Введіть трете число:"));
 
 if (Number.isNaN(number1) || Number.isNaN(number2) || Number.isNaN(number3)) {
   alert("Спробуйте ще...");
